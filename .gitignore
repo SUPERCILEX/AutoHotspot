@@ -1,0 +1,10 @@
+*.iml
+.gradle
+.idea/**
+!.idea/codeStyleSettings.xml
+build
+/local.properties
+/app/keystore.properties
+/app/*.json
+/app/keystore.jks
+/app/src/main/res/values/config.xml

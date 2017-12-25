@@ -80,7 +80,6 @@ class Client(app: Application) : AndroidViewModel(app) {
             if (resolution.status.isSuccess) {
                 this@Client.endpointId = endpointId
                 isConnected = true
-                hotspot = hotspot
             } else {
                 startDiscovery()
             }
